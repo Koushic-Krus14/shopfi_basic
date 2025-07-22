@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Store and Display User Name</title>
+    <title>Display Username</title>
 </head>
 <body>
     <h1>Enter your name</h1>
@@ -14,12 +14,5 @@
     {% if username %}
         <h2>Hello, {{ username }}!</h2>
     {% endif %}
-
-    <hr>
-    <h3>Admin Action:</h3>
-    <p>You can download all stored names as a CSV file here:</p>
-    <a href="/download">
-        <button type="button">Download Names as CSV</button>
-    </a>
 </body>
 </html>
