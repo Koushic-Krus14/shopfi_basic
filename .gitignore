@@ -1,4 +1,12 @@
-venv/
+# Ignore Python cache
 __pycache__/
 *.pyc
+
+# Ignore virtual environments
+venv/
+
+# Ignore database file (optional; keep it local only)
+database.db
+
+# macOS
 .DS_Store
